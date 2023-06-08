@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniFlix NFT Viewer</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <header>
+    <h1>OmniFlix NFT Viewer</h1>
+    <div id="accountAddress"></div>
+  </header>
+  <div class="container">
+    <div id="loginCard" class="card">
+      <h2>Connect Keplr Account</h2>
+      <h2>Login</h2>
+      <p>Install the Keplr extension for your browser and connect your account to view your OmniFlix NFTs.</p>
+      <a  href="https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap" class="button">Install Keplr</a>
+      <a href="https://docs.keplr.app/" class="button">Follow the Keplr documentation to set up and configure Keplr.</a>
+      <a href="" class="button">Connect Keplr</a>
+    </div>
+    <div id="nftList" class="card">
+      <h2>Your OmniFlix NFTs</h2>
+      <div id="carousel" class="carousel"></div>
+    </div>
+    <div id="singleNftPage" class="card hidden">
+      <button id="backButton" class="button">Back</button>
+      <div id="nftDetails"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
